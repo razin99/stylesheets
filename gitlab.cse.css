@@ -6,16 +6,16 @@
   --shadow: rgba(0,0,0,0.251);
   --inverse: #fff;
   --avatar: 25%;
-  --ac: #d47d3f;
+  --ac: #5ba898;
   --ui-font: '"font_name"', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Sans', 'Noto Sans', Ubuntu, Cantarell, 'Helvetica Neue', sans-serif, sans-serif, var(--emoji-font);
   --mono-font: '"font_name"', 'Menlo', 'DejaVu Sans Mono', 'Liberation Mono', 'Consolas', 'Ubuntu Mono', 'Courier New', 'andale mono', 'lucida console', monospace;
   --emoji-font: '"font_name"', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  --bg-0: hsla(0,0%,14.51%,1);
-  --bg-1: hsla(0,0%,16.08%,1);
-  --bg-2: hsla(0,0%,19.61%,1);
-  --bg-3: hsla(0,0%,22.36%,1);
-  --bg-4: hsla(0,0%,26.28%,1);
-  --bg-5: hsla(0,0%,30.59%,1);
+  --bg-0: hsla(220deg,13%,14.51%,1);
+  --bg-1: hsla(220deg,13%,16.08%,1);
+  --bg-2: hsla(220deg,13%,19.61%,1);
+  --bg-3: hsla(220deg,13%,22.36%,1);
+  --bg-4: hsla(220deg,13%,26.28%,1);
+  --bg-5: hsla(220deg,13%,30.59%,1);
   --fg-0: hsla(0,0%,91.38%,1);
   --fg-1: hsla(0,0%,90.2%,1);
   --fg-2: hsla(0,0%,74.12%,1);
@@ -135,7 +135,7 @@ body.navless {
 }
 body a,
 body a:hover {
-  color: var(--ac);
+  color: var(--v6-9);
 }
 body hr {
   border-color: var(--bg-3);
@@ -1816,19 +1816,19 @@ select {
 }
 .btn#clone-dropdown {
   color: var(--v9-8) !important;
-  border-color: var(--v0-5) !important;
-  background-color: var(--v0-3) !important;
+  border-color: var(--v7-5) !important;
+  background-color: var(--v7-3) !important;
 }
 .btn#clone-dropdown:hover {
   color: var(--v9-9) !important;
-  border-color: var(--v0-6) !important;
-  background-color: var(--v0-4) !important;
+  border-color: var(--v7-6) !important;
+  background-color: var(--v7-4) !important;
 }
 .btn#clone-dropdown:focus {
   color: var(--v9-9) !important;
-  border-color: var(--v0-7) !important;
-  background-color: var(--v0-5) !important;
-  box-shadow: 0 0 0 1px var(--bg-1), 0 0 0 0.25rem var(--v0-2) !important;
+  border-color: var(--v7-7) !important;
+  background-color: var(--v7-5) !important;
+  box-shadow: 0 0 0 1px var(--bg-1), 0 0 0 0.25rem var(--v7-2) !important;
 }
 .btn#clone-dropdown > svg {
   fill: var(--v9-8) !important;
@@ -1889,7 +1889,7 @@ select {
   fill: var(--fg-1) !important;
 }
 button[data-clipboard-text]:not(#z) {
-  border-color: transparent !important;
+  /* border-color: transparent !important; */
   background-color: transparent !important;
 }
 button.close:not(#z) {
@@ -2479,10 +2479,10 @@ ul.content-list .snippet-info {
   background-color: var(--bg-4) !important;
 }
 .nav-sidebar li.active {
-  box-shadow: inset 4px 0 0 var(--v0-8) !important;
+  box-shadow: inset 4px 0 0 var(--v7-8) !important;
 }
 .nav-sidebar li.active > a {
-  color: var(--ac) !important;
+  color: var(--v7-9) !important;
 }
 .nav-sidebar .sidebar-top-level-items > li > a:hover {
   color: var(--fg-1) !important;
@@ -2507,11 +2507,11 @@ ul.content-list .snippet-info {
 .nav-sidebar .sidebar-top-level-items > li:not(.is-showing-fly-out) > ul > li:not(.active) > a:focus {
   color: var(--fg-1) !important;
   background-color: var(--bg-4) !important;
-  box-shadow: inset 4px 0 0 var(--v0-8) !important;
+  box-shadow: inset 4px 0 0 var(--v7-8) !important;
 }
 .nav-sidebar .sidebar-top-level-items > li:not(.is-showing-fly-out) > ul > li.active a {
   background-color: var(--bg-4) !important;
-  box-shadow: inset 4px 0 0 var(--v0-8) !important;
+  box-shadow: inset 4px 0 0 var(--v7-8) !important;
 }
 .nav-sidebar .is-showing-fly-out > ul {
   border-color: var(--bg-5) !important;
@@ -7716,54 +7716,3 @@ line[id *= 'dag-'][stroke = '#f2f2f2'] {
 .incident-management-list .new-alert {
   background-color: transparent !important;
 }
-}
-
-@-moz-document domain('next.gitlab.com') {
-  body {
-    background: linear-gradient(130deg, var(--bg-2), var(--bg-1)) !important;
-  }
-  .wrapper {
-    padding: 1rem;
-    min-height: calc(100vh - 2rem);
-  }
-  .wrapper h1,
-  .wrapper p {
-    color: var(--fg-1) !important;
-  }
-  .wrapper a {
-    color: var(--v0-9) !important;
-  }
-  .wrapper a:hover {
-    color: var(--v0-7) !important;
-  }
-  .wrapper * {
-    font-family: var(--ui-font) !important;
-  }
-  .wrapper .bg {
-    filter: grayscale(1) invert(0.5) opacity(0.2);
-  }
-  .wrapper [class*='box'] {
-    border-radius: 4px !important;
-    background-color: var(--bg-2) !important;
-    box-shadow: inset 0 0 0 1px var(--bg-5) !important;
-  }
-  .wrapper [class*='box'] .text-switch {
-    color: var(--fg-3) !important;
-  }
-  .wrapper [class*='box'] [class*='toggle'] + label {
-    background-color: var(--v0-9) !important;
-  }
-  .wrapper [class*='box'] [class*='toggle'] + label::after {
-    background-color: var(--fg-0) !important;
-  }
-  .wrapper [class*='box'] [class*='toggle'] + label::before {
-    background-color: var(--bg-1) !important;
-  }
-  .wrapper [class*='box'] [class*='toggle']:not(:checked) + label {
-    background-color: var(--bg-5) !important;
-  }
-  .wrapper [class*='box'] [class*='toggle']:checked + label::before {
-    background-color: var(--v0-5) !important;
-  }
-}
-
