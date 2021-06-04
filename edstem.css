@@ -1,0 +1,175 @@
+.dif-content {
+  color: white;
+  background: #2b2b2b;
+}
+
+.dtf-date, .dcf-date, .dcf-replyto {
+  color: #9e9e9e;
+}
+
+.dtf-head-action-icon.icon {
+  fill: #9e9e9e;
+}
+
+.dsb-item.selected, .dsb-item[aria-pressed=true] {
+  background-color: rgb(0 221 251 / 10%);
+  color: #a4d8d8;
+}
+
+.dsb-course-unread {
+  color: #a4d8d8;
+}
+
+.dtf-gutter-count {
+  color: #9e9e9e;
+}
+
+.dtf-action, .dcf-action {
+  color: #9e9e9e;
+  fill: #9e9e9e;
+}
+
+.user-role-label {
+  color: #eae8e8;
+}
+
+.url-tutor {
+  background-color: rgb(150 0 255 / 50%);
+}
+
+.url-admin, .url-staff {
+  background-color: rgb(255 220 0 / 70%);
+}
+
+.dcf-user-name, .dtf-user-name {
+  color: #ff9ab6;
+}
+
+.amber * {
+  background: #1f1f1f;
+  color: white;
+  fill: white;
+}
+
+.amber-toolbar-menu:hover:not(:disabled) {
+  background-color: #444;
+}
+
+.discuss-reply-placeholder {
+  border: 1px solid #676767;
+  color: #828282;
+  stroke: #fff;
+  background-color: #404040;
+}
+
+.dcsf-expander-line {
+  background-color: #848484;
+}
+
+.dif-search-container, .dif-tf-actions {
+  background-color: #545454;
+}
+
+span.icon.icon-search {
+  fill: #a4d8d8;
+}
+
+input.dif-search-input::placeholder {
+  color: #a4d8d8;
+}
+
+.dis-tl-action {
+  color: #a4d8d8;
+  fill: #a4d8d8;
+}
+
+.dis-tl-action strong {
+  color: #a4d8d8;
+}
+
+.dtf-group-heading {
+  background-color: #3a4758;
+  color: white;
+}
+
+.discuss-feed-thread {
+  background-color: #1f2937;
+  color: white;
+}
+
+.discuss-feed-thread.dtf-thread[aria-selected=true] {
+  background-color: #371f35;
+}
+
+.discuss-feed-thread:hover {
+  background-color: #0d2452;
+}
+
+.discuss-glance {
+  background-color: inherit;
+  color: inherit;
+}
+
+.dif-tf-body * {
+  border-color: #3a3a3a;
+}
+
+.dif-tf {
+  background: #1f2937;
+}
+
+.discuss-feed-thread.dtf-thread {
+  border-color: #3a3a3a;
+}
+
+.icon.dft-thread-type-icon {
+  fill: white;
+}
+
+.split-divider-light.split-divider-visible {
+  background-color: #2b2b2b;
+}
+
+body ::-webkit-scrollbar-thumb {
+  background-color: rgb(176 123 255 / 25%);
+}
+
+.dif-sidebar-embedded-new-thread-layout {
+  background-color: #545454;
+}
+
+.discuss-sidebar-container.dif-sidebar-embedded {
+  color: white;
+  background-color: #545454;
+}
+
+.dsb-heading {
+  color: #ffd5b8;
+}
+
+.dsb-heading:not(:first-of-type) {
+  border-top: 1px solid #3a3a3a;
+}
+
+.dsbc-online {
+  border-top: 1px solid #3a3a3a;
+  color: #fff;
+}
+
+.syntax-highlight {
+  filter: invert(1);
+}
+
+.amber-display .amber-callout-info {
+  background-color: #a4afbd;
+}
+
+.amber-display code.amber-el {
+  color: #ffb0b0;
+  background-color: rgb(119 119 119 / 75%);
+}
+
+.dsb-item-clear {
+    fill: rgb(164 216 216);
+}
+
