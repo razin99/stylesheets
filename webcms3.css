@@ -1,0 +1,75 @@
+body {
+    background-color:#282c34;
+    color: white;
+}
+
+.breadcrumb {
+    background-color: #282c34;
+}
+
+.breadcrumb>.active {
+    color: #e5c07b;
+}
+
+li.list-group-item {
+    background-color: #282c34;
+}
+
+.panel.panel-primary {
+    background-color: #282c34;
+}
+
+.table-hover>tbody>tr:hover {
+    background-color: #4c4c4c;
+}
+
+a {
+    color: #61afef;
+}
+
+a:hover, a:focus {
+    color: #c678dd;
+    text-decoration: underline;
+}
+
+.comment.dark {
+    background: #282c34;
+}
+
+.comment.light {
+    background: #434b58;
+}
+
+small {
+    color: white;
+}
+
+li.list-group-item {
+    color: white;
+}
+
+.page-header {
+    color: white;
+}
+
+.panel-body {
+    color: white;
+    background-color: #282c34;
+}
+
+.panel-default>.panel-heading {
+    color: white;
+    background-color: #282c34;
+    border-color: #fff;
+}
+
+.panel-footer {
+    background-color: #282c34;
+    color: white;
+}
+
+li.list-group-item {
+    color: white;
+    border-left-style: none;
+    border-right: none;
+}
